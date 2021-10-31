@@ -19,6 +19,8 @@ ext {
 	set('springCloudVersion', "2021.0.0-SNAPSHOT")
 }
 
+buildDir = 'target'
+
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.cloud:spring-cloud-config-server'
